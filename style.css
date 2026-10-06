@@ -139,6 +139,7 @@ footer{
 #curiosidades h2{
     color: yellow;
     margin-left: 110px;
+    font-size: 30px;
 }
 .box2{
     background-color: white;
@@ -147,11 +148,91 @@ footer{
     border-radius: 5px;
     box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.3);
     margin-left: 110px;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 34px;
 }
 .lilbox{
     background-color: white;
-    width: 100px;
-    height: 100px;
+    margin-left: 25px;
+    width: 750px;
+    height: 90px;
+    padding: 20px;
     border-radius: 5px;
-    box-shadow: 0px 16px 24px rgba(0, 0, 0, 0.3);
+    border: 1px solid rgb(211, 210, 210);
+    transition: transform 0.3s ease;
+}
+.lilbox:hover{
+    cursor: pointer;
+    box-shadow: 0px 0px 24px 4px rgba(0, 0, 0, 0.3);
+    transform: scale(1.02);
+}
+.direita{
+    display: flex;
+}
+.direita img{
+    margin-left: 150px;
+}
+#contato h2{
+    font-size: 30px;
+    color: yellow;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    margin-right: 460px;
+}
+.box3{
+    background-color: white;
+    width: 600px;
+    height: 300px;
+    border-radius: 5px;
+    box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.3);
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 34px;
+}
+input,
+textarea{
+    width: 563px;
+    height: 40px;
+    margin-left: 20px;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 10px;
+}
+.botao{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+}
+.botao button{
+    background-color: yellow;
+    border: none;
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
+    transition: transform 0.3s ease;
+}
+button:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+    box-shadow: 0px 0px 4px 2px rgba(0, 0, 0, 0.3);
+}
+#contato{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#galeria h2{
+    color: yellow;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+}
+.poster{
+    display: flex;
+    justify-content: space-around;
 }
