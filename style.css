@@ -80,7 +80,7 @@ body{
 .trailer2{
     display: flex;
     flex-direction: column;
-    align-items: center;;
+    align-items: center;
 }
 .trailers{
     display: flex;
